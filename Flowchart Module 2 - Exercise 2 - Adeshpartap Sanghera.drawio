@@ -1,0 +1,126 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="0V0sMHEktaxUpvMjasR-">
+    <mxGraphModel dx="984" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-1" target="MMOwMc6sLZOjn-QYnv9c-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-2" target="MMOwMc6sLZOjn-QYnv9c-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-2" value="Housekeeping module()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-3" target="MMOwMc6sLZOjn-QYnv9c-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-3" target="MMOwMc6sLZOjn-QYnv9c-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-3" value="if hours&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="310" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-4" value="Detail loop()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-5" target="MMOwMc6sLZOjn-QYnv9c-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-5" value="End of job()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-9" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-10" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="390" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-16" target="MMOwMc6sLZOjn-QYnv9c-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-16" value="Housekeeping module()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-17" target="MMOwMc6sLZOjn-QYnv9c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-17" value="Declarations&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;num hours&lt;/span&gt;&lt;/div&gt;&lt;div&gt;num material_cost&lt;/div&gt;&lt;div&gt;num total_cost&lt;/div&gt;&lt;div&gt;num labour_cost&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-20" target="MMOwMc6sLZOjn-QYnv9c-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-20" value="INPUT hours" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-21" target="MMOwMc6sLZOjn-QYnv9c-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-21" value="INPUT material_cost" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-24" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-26" target="MMOwMc6sLZOjn-QYnv9c-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-26" value="Deatail loop()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-30" target="MMOwMc6sLZOjn-QYnv9c-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-30" value="labour_cost = hours *30" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="685" y="105" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-31" target="MMOwMc6sLZOjn-QYnv9c-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-31" value="material_cost = material_cost * 1.2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="685" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-32" target="MMOwMc6sLZOjn-QYnv9c-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-32" value="total_cost = material_cost + labour_cost" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="690" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-33" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-39" target="MMOwMc6sLZOjn-QYnv9c-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-39" value="End of job()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MMOwMc6sLZOjn-QYnv9c-40" target="MMOwMc6sLZOjn-QYnv9c-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-40" value="OUTPUT&amp;nbsp;&lt;div&gt;total_cost&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-41" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MMOwMc6sLZOjn-QYnv9c-44" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="540" width="120" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
